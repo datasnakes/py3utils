@@ -46,7 +46,7 @@ setup(
         'Programming Language :: Python :: 3.5'
     ],
     # Packages will be automatically found if not in this list.
-    packages=find_packages(),
+    packages=['py3utils'],
     include_package_data=True,
     entry_points={},
     zip_safe=False,
